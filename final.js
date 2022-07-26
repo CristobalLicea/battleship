@@ -137,6 +137,7 @@ function attack(x, y){
   }
 }
 
+//Check to see if the slot is valid
 function slotCheck(slot) {
   const newSlot = slot.split(' ');
   if (rowAlpha.includes(newSlot[0]) && +newSlot[1] > 0 && +newSlot[1] <= 10) {
